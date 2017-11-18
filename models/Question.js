@@ -8,10 +8,10 @@ class Question {
       const sql = `CREATE TABLE questions (
          id INTEGER PRIMARY KEY,
          content TEXT
-       )`
-  
-       db.run(sql, function(){
-         resolve("questions table created")
+       )`;
+
+      db.run(sql, function() {
+        resolve('questions table created');
       });
     });
   }
