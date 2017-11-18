@@ -1,13 +1,9 @@
 'use strict';
 
-const db = require("../config/db")
+const db = require('../config/db');
 
-class Question{
-
-  static CreateTable(){
-    
-  }
+class Question {
+  static CreateTable() {}
 }
-
 
 module.exports = Question;
